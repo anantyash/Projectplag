@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProjectPlag</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar" id="nav">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">ProjectPlag</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__links" id="about-page">Project</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="services-page">How To?</a>
+        </li>
+      </ul>
+      <div class="navbar__btn">
+        <a href="#sign-up" class="button" id="signup" onclick="loginPage()">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="hero__container">
+      <h1 class="hero__heading">Discover, Share, Innovate</h1>
+      <p class="hero__description moto">A one-stop platform for student projects</p>
+      <p class="hero__description">This platform aims to connect students across universities and colleges in India,
+        fostering knowledge sharing and innovation in project work.</p>
+      <button class="main__btn"><a href="#about" >Register</a></button>
+    </div>
+  </div>
+  
+  <!-- Services Section -->
+  <div class="services" id="services">
+    <h1>Latest Uploaded Projects</h1>
+    <div class="cards">
+      <div class="img-card iCard-style2">
+        <div class="card-content">
+          <div class="card-image">
+            <!-- <span class="card-caption">Handwritten Recognizer</span> -->
+            <img src="images/Handwritten Recognizer using Matlab.JPG" />
+          </div>
+  
+          <span class="card-title">Handwritten Recognizer </span>
+  
+          <div class="card-text">
+            <p><br>
+              <b>Author(s) :</b> Raj  (IIT, Munbai) <br>
+              <b>Category :</b>  Computer Science <br>
+              <b>Abstract :</b> Developed a handwritten text recognizer using machine learning, enhancing digital conversion accuracy for academic and administrative college tasks.
+            </p>
+          </div>
+  
+        </div>
+  
+        <div class="card-link">
+          <a href="#" title="Read Full"><span>Read Full</span></a>
+        </div>
+      </div>
+      <div class="img-card iCard-style2">
+        <div class="card-content">
+          <div class="card-image">
+            <!-- <span class="card-caption">Image Caption</span> -->
+            <img src="images/Attendance Marking using MATLAB.JPG" />
+          </div>
+  
+          <span class="card-title">Attendance Maker</span>
+  
+          <div class="card-text">
+            <p><br>
+              <b>Author(s) :</b> Komal (NIT, Jamshedpur)
+              <b>Category : </b>Computer Science
+              <b>Abstract : </b>An attendance maker simplifies recording student attendance, ensuring accurate tracking and streamlined management for college courses.
+            </p>
+          </div>
+  
+        </div>
+  
+        <div class="card-link">
+          <a href="#" title="Read Full"><span>Read Full</span></a>
+        </div>
+      </div>
+      <div class="img-card iCard-style2">
+        <div class="card-content">
+          <div class="card-image">
+            <!-- <span class="card-caption">Image Caption</span> -->
+            <img src="images/IOT Home Automation.JPG" />
+          </div>
+  
+          <span class="card-title">Home Automation</span>
+  
+          <div class="card-text">
+            <p><br>
+              <b>Author(s) :</b> Sam (CU, Punjab)
+              <b>Category : </b> Computer Science
+              <b>Abstract : </b>Home automation project enhances living spaces with smart technology, enabling remote control and monitoring for convenience and efficiency.
+            </p>
+          </div>
+  
+        </div>
+  
+        <div class="card-link">
+          <a href="#" title="Read Full"><span>Read Full</span></a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <!-- <div class="main__img--card"><i class="fas fa-layer-group"></i></div> -->
+        <img src="images/pexels-vlada-karpovich-4050312.jpg" alt="images">
+      </div>
+      <div class="main__content">
+        <h1><span>HOW: </span> Register Yourself ?</h1>
+        <p>
+          <b>1. Click on "Register:</b> Locate the "Register" or "Sign Up" button on the homepage
+          and click on it to initiate the registration process.<br><br>
+
+          <b>2. Fill out Registration Form:</b> You will be directed to a registration form.<br><br>
+
+          <b>3. Agree to Terms and Conditions:</b> Read through the terms and conditions of
+          using the platform and, if you agree, check the box indicating your acceptance.<br><br>
+
+          <b>4. Verify Email:</b> After submitting the registration form, you will receive a
+          verification email at the email address you provided. Click on the verification
+          link in the email to verify your account.<br><br>
+
+          <b>5. Click on “Log in”:</b> Once your email is verified, you will be redirected to the
+          website where you can log in using your registered email address and password.<br><br>
+
+          <b>6. Upload Project:</b> Once logged in, navigate to the "Upload Project" section.<br><br>
+        </p>
+
+        <button class="main__btn"><a href="#" onclick="registerPage()">Register</a></button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Features Section -->
+  <!-- <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Team</h1>
+          <h2>Sign Up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Category</h2>
+          <a href="#">Featured Project</a>
+          <a href="/">Latest Project</a>
+          <a href="/">Computer Science</a>
+          <a href="/">Management</a>
+        </div>
+        <div class="footer__link--items"> 
+          <h2>Support <br></h2>
+          <a href="/">Contact Us</a>
+          <a href="/">FAQ</a>
+        </div>
+
+      </div>
+      <!-- <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div> -->
+    </div>
+    <section class="social__media">
+      <hr style="border-color: #787675;">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="#nav" id="footer__logo">@ProgectPlag.com</a>
+        </div>
+        <p class="website__rights">© ProjectPlag . All rights reserved</p>
+        <div class="social__icons">
+          <a href="https://www.facebook.com/" class="social__icon--link" target="_blank"><i
+              class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+          <a href="https://in.linkedin.com/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+          <!-- <a href="https://twitter.com/" class="social__icon--link"><i class="fa-brands fa-x-twitter"></i>
+          </a> -->
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
