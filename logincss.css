@@ -11,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FAEBEA;
+  background: #CAF0F8;
 }
 ::selection{
   color: #fff;
@@ -130,14 +130,16 @@ form .pass-txt{
 form input[type="submit"]{
   height: 50px;
   margin-top: 30px;
-  color: #fff;
+  color: #03045E;
   padding: 0;
   border: none;
-  background: #26D6CC;
+  background: #CAF0F8;
+  font-weight: 500;
   cursor: pointer;
-  border-bottom: 2px solid rgba(0,0,0,0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 form input[type="submit"]:hover{
-  background: #FF7A0F;
+  background: #03045E;
+  color: #fff;
 }

@@ -65,11 +65,11 @@ function showText(toggleText) {
 //for login page 
 
 function loginPage() {
-  window.location.assign('http://localhost/projectplag/login.php');
+  window.location.assign('http://localhost/projectplag/php/login.php');
 }
 
 // for register page
 
 function registerPage() {
-  window.location.assign('http://localhost/projectplag/registerhtml.php');
+  window.location.assign('http://localhost/projectplag/php/registerhtml.php');
 }

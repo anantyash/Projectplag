@@ -28,11 +28,8 @@
                $row = mysqli_fetch_assoc($result);
                
                if(is_array($row) && !empty($row)){
-                   // $_SESSION['valid'] = $row['Email'];
-                   // $_SESSION['username'] = $row['Username'];
-                   // // $_SESSION['age'] = $row['Age'];
+                   
                    $_SESSION['id'] = $row['Id'];
-
                    $_SESSION['name'] = $row['FName'];
                    $_SESSION['dob'] = $row['DOB'];
                    $_SESSION['valid'] = $row['Email'];
@@ -45,6 +42,7 @@
                    $_SESSION['project'] = $row['Project'];
                    $_SESSION['gitlink'] = $row['Gitlink'];
                    $_SESSION['domain'] = $row['Domain'];
+
                 }else{
                     echo "<div class='message'>
                      <p>Wrong Username or Password</p>
@@ -54,8 +52,7 @@
                 }
                 if(isset($_SESSION['valid'])){
                     header("Location: home.php");
-                    // echo ($_SESSION['valid']);
-               }
+                }
              }else{
 
            

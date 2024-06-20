@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style/dashboard.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Plagiarism Check | ProjectPlag</title> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <span class="logo_name">ProjectPlag</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="php/dashboard.php">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Students List</span>
+                </a></li>
+                <li><a href="php/home.php">
+                    <i class="uil uil-user"></i>
+                    <span class="link-name">Profile</span>
+                </a></li>
+                <li><a href="projectgrid.html" >
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Project Grid</span>
+                </a></li>
+                <li><a href="plagcheck.html">
+                    <i class="uil uil-file-upload"></i>
+                    <span class="link-name">Code Copying Checker</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="php/logout.php">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <!-- <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li> -->
+            </ul>
+        </div>
+    </nav>
+    <section class="dashboard" >
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+        </div>
+
+        <div id="plag-check">
+
+            <embed src="https://dolos.ugent.be/server/#/" type="text/html">
+        </div>
+
+    </section>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>
