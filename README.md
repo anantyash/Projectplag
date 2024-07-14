@@ -1,6 +1,6 @@
 # ProjectPlag
 
-ProjectPlag is an innovative online platform designed to streamline the management of student projects while ensuring academic integrity through robust plagiarism detection. Originating from the Smart India Hackathon (SIH) 2024 problem statement, ProjectPlag aims to foster collaboration, innovation, and knowledge sharing among students and educators across diverse academic institutions.
+ProjectPlag is an innovative online platform designed to streamline the management of student projects while ensuring academic integrity through robust plagiarism detection. Originating from the Smart India Hackathon (SIH) 2023 problem statement, ProjectPlag aims to foster collaboration, innovation, and knowledge sharing among students and educators across diverse academic institutions.
 
 ## Technology Stack
 
