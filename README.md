@@ -27,6 +27,8 @@ ProjectPlag integrates with the Dolos Source Code Plagiarism Detection API, enab
 
 With its comprehensive suite of features and robust technology stack, ProjectPlag is poised to be a cornerstone in fostering a culture of innovation and academic excellence within the educational landscape.
 
-## Video
+<!-- ## Video
 
 For a detailed walkthrough and demonstration of ProjectPlag, please watch our [ProjectPlag Introduction Video](URL_TO_YOUR_VIDEO).
+-->
+
