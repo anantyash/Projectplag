@@ -47,7 +47,10 @@
          
          else{
 
-            mysqli_query($con,"INSERT INTO form_detail(FName,DOB, Email, Password, Gen, Branch, Clgname, Userid, Sesion, Project, Gitlink, Domain) VALUES('$name','$dob','$email','$password','$gen','$branch','$clgname','$userid','$session','$project','$gitlink','$domain')") or die("Erroe Occured");
+            //encrypting password
+            $secure_pass = password_hash($password, PASSWORD_DEFAULT);
+
+            mysqli_query($con,"INSERT INTO form_detail(FName,DOB, Email, Password, Gen, Branch, Clgname, Userid, Sesion, Project, Gitlink, Domain) VALUES('$name','$dob','$email','$secure_pass','$gen','$branch','$clgname','$userid','$session','$project','$gitlink','$domain')") or die("Erroe Occured");
 
             echo "<div class='message'>
                       <p>Registration successfully!</p>
